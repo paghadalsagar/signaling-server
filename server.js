@@ -162,7 +162,7 @@ function removeUserFromRoom(id) {
   });
 }
 
-const PORT = process.env.PORT || 3000; // Use the port Render provides
-server.listen(PORT, '0.0.0.0', () => {
-  console.log(`Server running on port ${PORT}`);
+server.listen(port, () => {
+  console.log(`Example app listening on port ${port}!`);
+  console.log(`Network access via: ${ipAddress}:${port}!`);
 });
